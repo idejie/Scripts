@@ -23,7 +23,6 @@
     var ef = document.querySelector('.hide-article-box');
     if (ef) {
         ef.remove();
-        //document.querySelector('#article_content').style.height='auto';
     }
     //阅读全文
     $('#btn-readmore').click();
@@ -49,7 +48,7 @@
     $('.container main').css({'width': '1010px'})
     $('.container main .recommend-box .type_blog .content .desc').css({'width': '81%'})
     $('.container main .recommend-box .type_blog .content .blog_title_box').css({'width': '18%'})
-    $("#mainBox > main").css("float","left");  //感谢 ID:potoo 的反馈
+    $("#mainBox > main").css("float","left"); 
     $("aside").remove();
     $('body').css({'min-width':'0'});
     $('.csdn-toolbar').css({'min-width':'0'});
@@ -60,6 +59,7 @@
     $('newsfeed').remove();
     $('#asideFooter').remove();
     $("li:contains('赚零钱')").remove();
+    //宽屏适配
     $("aside").css({'display':'block'});
     $("#mainBox > main").css("width","100%");
     $('.container').css({'width':'100%'})
