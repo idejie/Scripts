@@ -4,12 +4,11 @@
 
 
 // @namespace    https://github.com/idejie
-// @version      2.1
+// @version      1.0
 // @author       idejie
 // @match        http*://blog.csdn.net/*/article/details/*
 // @run-at       document-end
 // @grant        none
-// @license      CC-BY-NC-3.0
 // @supportURL   https://github.com/idejie
 // @date         29/11/2018
 // @modified    29/11/2018
