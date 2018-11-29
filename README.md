@@ -5,7 +5,7 @@
 - [Install](https://tampermonkey.net/)
 
 ## Scripts
-- **clean_csdn: 优化csdn**
+- **[clean_csdn](https://github.com/idejie/Scripts/raw/master/clean_csdn.js): 优化csdn**
   - 去广告
   - 自动展开
   - 移除无用信息
