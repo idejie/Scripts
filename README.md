@@ -1,5 +1,5 @@
 # Scripts
-> 一些不错的MonkeyScript
+> TamperMonkey Scripts
 
 ## Tampermonkey
 - [install](https://tampermonkey.net/)
