@@ -3,12 +3,13 @@
 // @description  【CSDN美化】自动展开+内容only
 
 
-// @namespace    https://github.com/idejie
-// @version      1.0
+// @namespace    https://github.com/idejie/Scripts/blob/master/clean_csdn.js
+// @version      2.1
 // @author       idejie
 // @match        http*://blog.csdn.net/*/article/details/*
 // @run-at       document-end
 // @grant        none
+// @license      CC-BY-NC-3.0
 // @supportURL   https://github.com/idejie
 // @date         29/11/2018
 // @modified    29/11/2018
@@ -16,16 +17,7 @@
 
 (function () {
     'use strict';
-    document.querySelector('div.article_content').style='';
-    var readmore=document.getElementById("btn-readmore").parentNode;
-    readmore.parentNode.removeChild(readmore);
-    var ef = document.querySelector('.hide-article-box');
-    if (ef) {
-        ef.remove();
-    }
-    //阅读全文
-    $('#btn-readmore').click();
-    //vip免广告 按钮
+      //vip免广告 按钮
     $('.meau-gotop-box').remove();
     //未登录提示
     $('.unlogin-box').remove();
@@ -58,9 +50,19 @@
     $('newsfeed').remove();
     $('#asideFooter').remove();
     $("li:contains('赚零钱')").remove();
-    //宽屏适配
     $("aside").css({'display':'block'});
     $("#mainBox > main").css("width","100%");
     $('.container').css({'width':'100%'})
- 
+    document.querySelector('div.article_content').style='';
+    var readmore=document.getElementById("btn-readmore").parentNode;
+    readmore.parentNode.removeChild(readmore);
+    var ef = document.querySelector('.hide-article-box');
+    if (ef) {
+        ef.remove();
+        //document.querySelector('#article_content').style.height='auto';
+    }
+    //阅读全文
+    $('#btn-readmore').click();
+  
+
 })();
