@@ -7,7 +7,7 @@
 // @match        http://210.77.16.21/eportal/index.jsp*
 // @supportURL   https://github.com/idejie
 // @date         2019/05/19
-// @modified    2019/05.19
+// @modified    2019/05/19
 // ==/UserScript==
 
 (function() {
