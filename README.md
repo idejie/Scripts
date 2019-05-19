@@ -13,3 +13,8 @@
   - 效果： 
   ![](https://ws3.sinaimg.cn/large/006tNbRwly1fxp1i8nbrij31hz0u0wrq.jpg)
   ![](https://ws3.sinaimg.cn/large/006tNbRwly1fxp1ilhhiwj31hp0u0n4q.jpg)
+- **[fuck_ucas_net](https://github.com/idejie/Scripts/raw/master/fuck_ucas_net.js): UCAS上网脚本**
+  - just one line :
+   ```javascript
+   checkForm=()=>true;
+   ```
