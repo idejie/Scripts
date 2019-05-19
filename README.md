@@ -1,5 +1,5 @@
 # Scripts
-> TamperMonkey Scripts
+> Better scripts lead to better life
 
 ## Tampermonkey
 - [Install](https://tampermonkey.net/)
