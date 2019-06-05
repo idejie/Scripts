@@ -18,3 +18,4 @@
    ```javascript
    checkForm=()=>true;
    ```
+  - 失效（不过还有其他方法，暂不公布，需要的联系）
