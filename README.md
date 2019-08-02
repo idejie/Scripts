@@ -69,3 +69,26 @@
     - How to find `dept_id`
 
       ![](https://ws1.sinaimg.cn/large/006tNc79ly1fz0d6n18kpj31fl0u04qq.jpg)
+      
+- A Tool for Shit SDU(Single Dogs University)
+
+
+      **usge**
+
+
+      1. environment
+      ```
+        python3+
+      ```
+      2. install `beautifulsoup`
+      ```shell
+        pip install beautifulsoup
+      ```
+      3. add your print, like
+      ```python
+        print(score_all)
+       ```
+       4. execute the py
+       ```shell
+          python3 tool4shitsdu.py
+       ````
