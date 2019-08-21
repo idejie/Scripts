@@ -92,3 +92,30 @@
        ```shell
           python3 tool4shitsdu.py
        ````
+ - tu8tu spider
+  
+    a spider for crawling the "装修公司" on tu8tu.com
+  
+    - requirements.txt
+    ```
+    appdirs==1.4.3
+    certifi==2019.6.16
+    decorator==4.3.0
+    jieba==0.39
+    networkx==2.2
+    numpy==1.15.4
+    pandas==0.23.4
+    pybind11==2.2.4
+    pyee==6.0.0
+    pyppeteer==0.0.25
+    python-dateutil==2.7.5
+    pytz==2018.7
+    scikit-learn==0.20.1
+    scipy==1.1.0
+    six==1.11.0
+    textrank4zh==0.3
+    tqdm==4.34.0
+    urllib3==1.25.3
+    websockets==6.0
+    XlsxWriter==1.1.2
+    ```
